@@ -2,8 +2,11 @@
     <input
       type="text"
       name="q"
-      value="site:{{@outletArgs.siteUrl}} {{@outletArgs.searchTerm}}"
+      value="{{@outletArgs.searchTerm}}"
       aria-label={{i18n "search.search_google"}}
     />
-    <button class="btn btn-primary" type="submit">DuckDuckGo</button>
+    <input name="sites" value={{@outletArgs.siteUrl}} type="hidden" />
+    <button class="btn btn-primary" type="submit">{{theme-i18n
+        "search.search_duckduckgo_button"
+      }}</button>
   </form>
