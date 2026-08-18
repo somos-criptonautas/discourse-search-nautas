@@ -1,4 +1,7 @@
-  <form action='//search.criptonautas.co' id='google-search' class='inline-form'>
+import { i18n } from "discourse-i18n";
+
+<template>
+  <form action="//search.criptonautas.co" id="google-search" class="inline-form">
     <input
       type="text"
       name="q"
@@ -7,3 +10,4 @@
     />
     <button class="btn btn-primary" type="submit">buscar online</button>
   </form>
+</template>
