@@ -1,7 +1,8 @@
 {
-   "name" : "SearXNG Search Suggestions",
-   "about_url" : "https://github.com/notriddle/discourse-duckduckgo-search",
-   "license_url": "https://github.com/notriddle/discourse-duckduckgo-search/blob/master/LICENSE-APACHE",
-   "assets": {},
-   "component": true
+  "name": "SearXNG Search Suggestions Nautas",
+  "authors": "notriddle — Forked by Criptonautas",
+  "about_url": "https://github.com/notriddle/discourse-duckduckgo-search",
+  "license_url": "https://github.com/notriddle/discourse-duckduckgo-search/blob/master/LICENSE-APACHE",
+  "assets": {},
+  "component": true
 }
